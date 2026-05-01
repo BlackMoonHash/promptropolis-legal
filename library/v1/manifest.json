@@ -1,0 +1,78 @@
+{
+  "version": "2026-05-01",
+  "minAppVersion": "2.0.0",
+  "prompts": [
+    {
+      "id": "lib-explain-like-im-5",
+      "version": 1,
+      "title": "Explain Like I'm 5",
+      "description": "Simplify any concept",
+      "category": "Learning",
+      "text": "Explain {topic} in the simplest possible terms, as if I'm a complete beginner. Use analogies and avoid jargon.",
+      "tags": ["learning", "simplify"]
+    },
+    {
+      "id": "lib-code-review",
+      "version": 1,
+      "title": "Code Review Helper",
+      "description": "Get a thorough code review",
+      "category": "Development",
+      "text": "Review the following code for bugs, performance issues, and best practices. Suggest improvements with explanations:\n\n{code}",
+      "tags": ["code", "review"]
+    },
+    {
+      "id": "lib-blog-outline",
+      "version": 1,
+      "title": "Blog Post Outline",
+      "description": "Structure any blog post",
+      "category": "Writing",
+      "text": "Create a detailed outline for a blog post about {topic}. Include an engaging intro hook, 5-7 main sections with sub-points, and a compelling conclusion with a call to action.",
+      "tags": ["writing", "blog"]
+    },
+    {
+      "id": "lib-debug-error",
+      "version": 1,
+      "title": "Debug This Error",
+      "description": "Systematic debugging assistant",
+      "category": "Development",
+      "text": "I'm getting this error:\n\n{error}\n\nIn this code:\n\n{code}\n\nExplain what's causing it, why it happens, and give me the fix.",
+      "tags": ["debug", "code"]
+    },
+    {
+      "id": "lib-cold-email",
+      "version": 1,
+      "title": "Cold Email",
+      "description": "Pitch with intent and brevity",
+      "category": "Writing",
+      "text": "Write a cold email to {recipient_role} at {company} pitching {offer}. Keep it under 100 words, mention one specific detail about their work to show research, and end with a single low-friction CTA.",
+      "tags": ["email", "writing", "outreach"]
+    },
+    {
+      "id": "lib-meeting-summary",
+      "version": 1,
+      "title": "Meeting Summary",
+      "description": "Turn raw notes into a clean recap",
+      "category": "Productivity",
+      "text": "Take these meeting notes and turn them into a clean recap with three sections: Decisions Made, Action Items (with owner and due date), and Open Questions.\n\n{notes}",
+      "tags": ["productivity", "meetings"]
+    },
+    {
+      "id": "lib-translate-formal",
+      "version": 1,
+      "title": "Translate (Formal)",
+      "description": "Polished translation, not literal",
+      "category": "Writing",
+      "text": "Translate the following from {source_language} to {target_language}. Use a formal register suitable for business communication. Preserve any technical terms; flag anything ambiguous.\n\n{text}",
+      "tags": ["translation", "writing"]
+    },
+    {
+      "id": "lib-research-summary",
+      "version": 1,
+      "title": "Research Summary",
+      "description": "Distill long content into key points",
+      "category": "Research",
+      "text": "Summarize the following content in three layers: (1) one-sentence TL;DR, (2) five key points as bullets, (3) the strongest single quote or statistic worth remembering.\n\n{content}",
+      "tags": ["research", "summary"]
+    }
+  ]
+}
